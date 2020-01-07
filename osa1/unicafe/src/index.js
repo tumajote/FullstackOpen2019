@@ -13,6 +13,7 @@ const Statistic = ({ value, text, endsign }) => (
     </tr>
 )
 
+
 const Statistics = ({ stats }) => {
     const { good, bad, neutral } = stats
     if (good + neutral + bad === 0) {
